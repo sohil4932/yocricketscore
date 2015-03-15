@@ -63,7 +63,7 @@ class EchoLayer(YowInterfaceLayer):
             # These code snippets use an open-source library. http://unirest.io/python
             response = unirest.get("https://devru-live-cricket-scores-v1.p.mashape.com/livematches.php",
               headers={
-                "X-Mashape-Key": "f76O8zuLRNmshHWZSIZ41fdX0TCgp1Q1H6VjsnHX0VmQRU7d9r",
+                "X-Mashape-Key": "f76O8zuLRNmshHWZSIZ41xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", # use your X-Mashape-key
                 "Accept": "application/json"
               }
             )
